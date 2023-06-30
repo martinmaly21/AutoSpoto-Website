@@ -13,11 +13,19 @@ export default {
 
 <style scoped>
 .main-container {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-align: center;
-     color: #2c3e50;
-     margin-top: 60px;
+    color: white;
+    margin-top: 60px;
+}
+
+@font-face { 
+    font-family: JosefinSansRegular; 
+    src: url('JosefinSansRegular.ttf'); 
+} 
+h1 {
+    font-family: JosefinSansRegular
+}
+h2 {
+    font-family: JosefinSansRegular
 }
 </style>
