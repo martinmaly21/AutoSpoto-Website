@@ -11,7 +11,7 @@ export default {
  methods: {
     downloadDmg() {
       
-      const dmgFileUrl = process.env.VUE_APP_DMGMODE_URL+'AutoSpoto-Download.dmg';
+      const dmgFileUrl = 'https://autospoto.xyz/AutoSpoto-Download.dmg';
       console.log(dmgFileUrl)
       const downloadLink = document.createElement('a');
       downloadLink.href = dmgFileUrl;
