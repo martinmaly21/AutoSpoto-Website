@@ -2,9 +2,7 @@
     <div class="main-container">
         <h1>AutoSpoto</h1>
         <h2>Coming July 2023</h2>
-        <a :href="dmgFileUrl" download="AutoSpoto-Download.dmg">
-      <button>Download DMG</button>
-    </a>
+      <button @click="downloadDmg">Download DMG</button>
     </div>
 </template>
 
@@ -13,7 +11,7 @@ export default {
  methods: {
     downloadDmg() {
       
-      const dmgFileUrl = 'https://autospoto.xyz/AutoSpoto-Download.dmg';
+      const dmgFileUrl = process.env.VUE_APP_DMGMODE_URL+'AutoSpoto-Download.dmg';
       console.log(dmgFileUrl)
       const downloadLink = document.createElement('a');
       downloadLink.href = dmgFileUrl;
