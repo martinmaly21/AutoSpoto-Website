@@ -1,5 +1,4 @@
 <template>
-  <body>
     <div class="home-page">
       <header class="top-bar">
         <div class="logo-and-title">
@@ -12,17 +11,29 @@
         </nav>
       </header>
       <main class="main-container">
-        <h2 class="download-heading">Download AutoSpoto</h2>
-        <p><a href="#" class="download-link" @click="downloadDmg">macOS 13</a></p>
-        <p><a href="#" class="download-link14" @click="downloadDmg14">macOS 14</a></p>
+        <div class="content-container">
+          <div class="downloads"></div>
+          <div class="download-section">
+            <h2 class="download-heading">Download AutoSpoto</h2>
+            <p><a href="#" class="download-link" @click="downloadDmg">macOS 13</a></p>
+            <p><a href="#" class="download-link14" @click="downloadDmg14">macOS 14</a></p>
+          </div>
+          <div class="video-container">
+          <video class="video" controls>
+            <source src="@/components/TrimmedVideoAutoSpoto.mov" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        </div>
       </main>
     </div>
-  </body>
 </template>
+
+<!-- ...rest of your code remains the same -->
+
 
 <script>
 export default {
-  methods: {
     downloadDmg() {
       const dmgFileUrl = 'https://autospoto.xyz/AutoSpoto-Download.dmg';
       const downloadLink = document.createElement('a');
@@ -37,9 +48,8 @@ export default {
       downloadLink.setAttribute('download', 'AutoSpoto-Download.dmg');
       downloadLink.click();
     },
-
-  },
-}
+    
+  }
 </script>
 
 <style scoped>
@@ -99,11 +109,19 @@ body {
 .main-container {
   text-align: center;
   padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
 .download-heading {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: #1ed760;
 }
 
@@ -133,5 +151,28 @@ body {
   font-size: 18px;
   color: #b3b3b3;
   margin-bottom: 20px;
+}
+
+.downloads {
+  flex: 1;
+  text-align: center;
+  max-width: 100px; /* Adjust the width as needed */
+}
+
+.download-section {
+  margin-bottom: 20px;
+  height: 20;
+}
+
+.video-container {
+  flex: 1;
+  text-align: center;
+  position: relative;
+
+}
+
+.video {
+  max-width: 70%;
+  height: auto;
 }
 </style>
