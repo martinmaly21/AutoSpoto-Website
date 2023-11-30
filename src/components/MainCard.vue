@@ -314,7 +314,7 @@ nav, .nav-links {
     font-size: 2rem;
   }
 
-  @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 2600px) {
     #profile {
       height: 83vh;
       margin-bottom: 6rem;
@@ -334,6 +334,10 @@ nav, .nav-links {
   @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
+    }
+
+    #minimal-view{
+      display:flex;
     }
 
     #download,
