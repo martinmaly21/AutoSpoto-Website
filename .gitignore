@@ -26,4 +26,4 @@ pnpm-debug.log*
 .netlify
 
 
-*.mov
+src/assets/FinalDisplayAutoSpoto.mov
