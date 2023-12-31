@@ -23,7 +23,7 @@
       <class class="auto-spoto-title">AutoSpoto</class>
       <class class="auto-spoto-subtitle">Never lose a recommended song again.</class>
         <div class="video-container">
-           <video class="video" controls>
+           <video class="video" autoplay>
               <source src="@/assets/FinalDisplayAutoSpoto.mov" type="video/mp4">
               Your browser does not support the video tag.
            </video>
@@ -134,13 +134,13 @@ export default {
   .auto-spoto-title {
     color: white;
     font-family: JosefinSansBold;
-    font-size: 40pt;
+    font-size: 33pt;
   }
 
   .auto-spoto-subtitle {
     color: white;
     font-family: JosefinSansRegular;
-    font-size: 20pt;
+    font-size: 18pt;
     margin-bottom: 20pt;
   }
   
