@@ -17,6 +17,11 @@
      </nav>
      
      <div class="main-card">
+      <class class="auto-spoto-logo-container">
+        <img class = "auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
+      </class>
+      <class class="auto-spoto-title">AutoSpoto</class>
+      <class class="auto-spoto-subtitle">Never lose a recommended song again.</class>
         <div class="video-container">
            <video class="video" controls>
               <source src="@/assets/FinalDisplayAutoSpoto.mov" type="video/mp4">
@@ -119,6 +124,23 @@ export default {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    margin-bottom: 20pt;
+  }
+
+  .auto-spoto-logo {
+    width: 150px;
+  }
+
+  .auto-spoto-title {
+    color: white;
+    font-family: JosefinSansBold;
+    font-size: 40pt;
+  }
+
+  .auto-spoto-subtitle {
+    color: white;
+    font-family: JosefinSansRegular;
+    font-size: 20pt;
     margin-bottom: 20pt;
   }
   
