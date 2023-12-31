@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "JosefinSansBold";
+    src: url("/src/assets/fonts/JosefinSansBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "JosefinSanLight";
+    src: url("/src/assets/fonts/JosefinSansLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "JosefinSansRegular";
+    src: url("/src/assets/fonts/JosefinSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "JosefinSansSemibold";
+    src: url("/src/assets/fonts/JosefinSansSemibold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "JosefinSansThin";
+    src: url("/src/assets/fonts/JosefinSansThin.ttf") format("truetype");
+}
+
+body { 
+    margin: 0;   /* Remove body margins around website */
+}
