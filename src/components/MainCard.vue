@@ -26,7 +26,7 @@
         <button class="download-btn" @click="downloadDmg" target="_blank">
           Download now
         </button>
-        
+        <class class="download-extra-info">Requires macOS 13.0 or later</class>
      </div>
 
      <hr />
@@ -119,6 +119,7 @@ export default {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    margin-bottom: 20pt;
   }
   
   .video-container {
@@ -148,6 +149,13 @@ export default {
     width: 200pt;
     height: 35pt;
     line-height: 10pt;
+  }
+
+  .download-extra-info {
+    color: white;
+    font-family: JosefinSansRegular;
+    font-size: 11pt;
+    margin-top: 2pt;
   }
   
   .download-btn:hover {
