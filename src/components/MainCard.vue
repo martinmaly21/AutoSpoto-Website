@@ -11,7 +11,7 @@
            <ul class="nav-links">
               <li><a @click="scrollToSection('story')">Story</a></li>
               <li><a @click="scrollToSection('how-it-works')">How it works?</a></li>
-              <li><a @click="scrollToSection('blah')">Contact</a></li>
+              <li><a @click="openEmail()">Contact</a></li>
            </ul>
         </div>
      </nav>
@@ -102,6 +102,9 @@ export default {
           behavior: 'smooth',
         });
       }
+    },
+    openEmail() {
+      window.location = "mailto:autospoto.official@gmail.com";
     }
   },
 };
