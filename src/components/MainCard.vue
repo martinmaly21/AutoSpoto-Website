@@ -37,36 +37,7 @@
      <hr />
 
      <div class="story-card" id="story">
-      <p class="section__text__p1">Music Is Meant To Be Shared</p>
-            <div class="about-page">
-              
-              <div class="AutoSpotoStory">
-              <div class="about-details-container">
-                <div class="text-container">
-                  <div>At AutoSpoto, our story is rooted in the shared passion for music that binds us together. We are a trio of friends whose love for discovering and sharing tunes has always been at the heart of our friendship.</div>
-                  <br>
-                  <div>However, we felt that the experience of sharing music was inherently flawed. Tunes shared between each other would constantly be lost in the sea of messages.</div>
-                  <br>
-                  <div>Out of this problem, AutoSpoto emerged as our collective dream project, a manifestation of our desire to make music sharing seamless, spontaneous, and deeply personal.</div>
-                  <br>
-                  
-                  <div class="about-ending">
-                  <div class="lads-image">
-                    <img src="@/assets/lads.png">
-                </div>
-                <div class="autospoto-signature">-The AutoSpoto Team</div>
-              </div>
-                </div>
-
-              </div>
-              <!-- <p class="how-it-works-p">Once given permission, AutoSpoto scans the chat.db SQLite database on your mac to find valid Spotify links shared in iMessage or SMS chats.
-                 Users can view all the Spotify songs they've sent to contacts and create playlists based on specific chats. 
-                 To keep playlists up-to-date, a LaunchAgent refreshes the playlist when a new song is shared within a tracked playlist. </p> -->
-          </div>
-          <div class = "IFrame-Spotify">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7KfBHdVQiSRJCQp5ejXhgj?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-          </div>
-        </div>
+        TODO: STORY
      </div>
 
      <hr />
@@ -220,64 +191,6 @@ export default {
 
   .story-card {
     color: white;
-    padding-left: 50px;
-    padding-right:50px;
-    padding-bottom: 150px;
-
-  }
-  .section__text__p1{
-    font-family: JosefinSansSemiBold;
-  }
-
-    .about-details-container{
-      background-color: rgb(64, 63, 63);
-      font-family: JosefinSansRegular;
-      border-radius: 15px;
-      padding: 15px;
-    }
-  .lads-image{
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-  clip-path: circle();
-  width: 100px;
-  height: 100px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  display: block;
-  }img {
-  display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
-  float: left;
-}
-.autospoto-signature{
-  float:right;
-}
-.about-ending{
-  display: flex;
-  align-items:center;
-  gap: 10px;
-}
-  .about-page {
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 25px 100px;
-    justify-content: baseline;
-  }
-  
-  .text-container{
-    width:fit-content;
-    height:auto;
-    display: inline-block;
-  }
-
-  
-  .section__text__p1 {
-    text-align: left;
-    font-size: 2rem;
   }
   .how-it-works-card {
     color: white;
