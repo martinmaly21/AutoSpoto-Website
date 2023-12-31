@@ -9,9 +9,9 @@
      <nav id="desktop-nav">
         <div>
            <ul class="nav-links">
-              <li><a @click="scrollToSection('story')">Download</a></li>
-              <li><a @click="scrollToSection('how-it-works')">About the Project</a></li>
-              <li><a @click="scrollToSection('how-it-works')">Contact</a></li>
+              <li><a @click="scrollToSection('story')">Story</a></li>
+              <li><a @click="scrollToSection('how-it-works')">How it works?</a></li>
+              <li><a @click="scrollToSection('blah')">Contact</a></li>
            </ul>
         </div>
      </nav>
@@ -24,8 +24,9 @@
            </video>
         </div>
         <button class="download-btn" @click="downloadDmg" target="_blank">
-        Download for MacOS 13.0 +
+          Download now
         </button>
+        
      </div>
 
      <hr />
@@ -75,10 +76,10 @@ export default {
 <style scoped>
 
   body {
-      margin: 0;
-      padding: 0;
-      scroll-behavior: smooth;
-      background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 35%);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 35%);
   }
 
   nav {
@@ -103,7 +104,7 @@ export default {
     scroll-behavior: smooth;
     color: white;
     font-family: JosefinSansSemibold;
-    font-size: 18pt;
+    font-size: 16pt;
   }
   
   a:hover {
@@ -137,10 +138,16 @@ export default {
     transition: all 300ms ease;
     padding: 1rem;
     width: 8rem;
-    border-radius: 2rem;
+    background-color: white;
+    border-radius: 1rem;
     transition: all 300ms ease;
     margin-top:20px;
     border: rgb(53, 53, 53) 0.1rem solid;
+    font-family: JosefinSansSemiBold;
+    font-size: 14pt;
+    width: 200pt;
+    height: 35pt;
+    line-height: 10pt;
   }
   
   .download-btn:hover {
@@ -148,7 +155,7 @@ export default {
   }
 
   .download-btn:hover {
-    background: rgb(53, 53, 53);
+    background: rgb(56, 210, 17);
     color: white;
   }
 
