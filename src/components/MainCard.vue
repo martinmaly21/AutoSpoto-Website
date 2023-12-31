@@ -1,84 +1,82 @@
-
 <template>
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
   </head>
-    <body>
-    <nav id="desktop-nav">
-         <div class="logo">AutoSpoto</div>
-         <div>
-            <ul class="nav-links">
-                <li><a @click="scrollToSection('download')">Download</a></li>
-                <li><a @click="scrollToSection('about')">About the Project</a></li>
-            </ul>
-         </div>
-    </nav>
-
-    <nav id ="minimal-view">
+  <body>
+     <nav id="desktop-nav">
         <div class="logo">AutoSpoto</div>
-    </nav>
-
-    <section id="profile">
-            <div class="video-container">
-              <video class="video" controls>
+        <div>
+           <ul class="nav-links">
+              <li><a @click="scrollToSection('download')">Download</a></li>
+              <li><a @click="scrollToSection('about')">About the Project</a></li>
+           </ul>
+        </div>
+     </nav>
+     <nav id ="minimal-view">
+        <div class="logo">AutoSpoto</div>
+     </nav>
+     <section id="profile">
+        <div class="video-container">
+           <video class="video" controls>
               <source src="@/assets/FinalDisplayAutoSpoto.mov" type="video/mp4">
               Your browser does not support the video tag.
-            </video>
-      </div>
-          </section>
-          <section id="download">
-            <p class="section__text__p1">Download</p>
-            <div class="download_page">
-            <div class="combined-button-container">
-            <div class="btn-container">
-                    <button
-                      class="btn btn-color download-btn" @click="downloadDmg" target="_blank"
+           </video>
+        </div>
+     </section>
+     <section id="download">
+        <p class="section__text__p1">Download</p>
+        <div class="download_page">
+           <div class="combined-button-container">
+              <div class="btn-container">
+                 <button
+                    class="btn btn-color download-btn" @click="downloadDmg" target="_blank"
                     >
-                      Download for MacOS 13.0 +
-                    </button>
-            </div>
-            <div class="btn-container">
-                    <button
-                      class="btn btn-color download-btn"
-                      @click="downloadDmg14" target="_blank"
+                 Download for MacOS 13.0 +
+                 </button>
+              </div>
+              <div class="btn-container">
+                 <button
+                    class="btn btn-color download-btn"
+                    @click="downloadDmg14" target="_blank"
                     >
-                      Download for MacOS 14.0 +
-                    </button>
-            </div>
-          </div>
-          <div class="Technical-Description">
+                 Download for MacOS 14.0 +
+                 </button>
+              </div>
+           </div>
+           <div class="Technical-Description">
               <h1 class="how-it-works">How it Works</h1>
               <p class="how-it-works-p">Once given permission, AutoSpoto scans the chat.db SQLite database on your mac to find valid Spotify links shared in iMessage or SMS chats.
                  Users can view all the Spotify songs they've sent to contacts and create playlists based on specific chats. 
-                 To keep playlists up-to-date, a LaunchAgent refreshes the playlist when a new song is shared within a tracked playlist. </p>
-          </div>
+                 To keep playlists up-to-date, a LaunchAgent refreshes the playlist when a new song is shared within a tracked playlist. 
+              </p>
+           </div>
         </div>
-          </section>
-          <section id="about">
-            <p class="section__text__p1">About</p>
-            <div class="section-container">
-              <div class="section__pic-container">
-                <img
-                  src="../assets/lads.png"
-                  alt="Profile picture"
-                  class="about-pic"
-                />
-              </div>
-              <div class="about-details-container">
-                <div class="text-container">
-                  <p>
+     </section>
+     <section id="about">
+        <p class="section__text__p1">About</p>
+        <div class="section-container">
+           <div class="section__pic-container">
+              <img
+                 src="../assets/lads.png"
+                 alt="Profile picture"
+                 class="about-pic"
+                 />
+           </div>
+           <div class="about-details-container">
+              <div class="text-container">
+                 <p>
                     At AutoSpoto, our story is rooted in the shared passion for music that binds us together. 
                     We are a trio of friends whose love for discovering and sharing tunes has always been at the heart of our friendship. 
                     Born out of this shared enthusiasm, AutoSpoto emerged as our collective dream project, a manifestation of our desire to make music sharing seamless, spontaneous, and deeply personal.
-                  </p>
-                </div>
+                 </p>
               </div>
-            </div>
-          </section>
-        </body>
+           </div>
+        </div>
+     </section>
+  </body>
 </template>
 
 <!-- ...rest of your code remains the same -->
