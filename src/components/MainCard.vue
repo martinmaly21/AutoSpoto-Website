@@ -24,7 +24,7 @@
       <class class="auto-spoto-subtitle">Never lose a recommended song again.</class>
         <div class="video-container">
            <video class="video" autoplay>
-              <source src="@/assets/FinalDisplayAutoSpoto.mov" type="video/mp4">
+              <source src="FinalDisplayAutoSpoto.mov" type="video/mp4">
               Your browser does not support the video tag.
            </video>
         </div>
