@@ -460,6 +460,12 @@
     color: white;
     font-family: JosefinSansBold;
     margin-right: 8px;
+    cursor: pointer;
+  }
+
+  .who-we-are-1:hover {
+    color: rgb(56, 210, 17);
+    text-decoration: underline;
   }
 
   .who-we-are-divider {
@@ -472,18 +478,36 @@
     color: white;
     font-family: JosefinSansBold;
     margin-right: 24px;
+    cursor: pointer;
+  }
+
+  .who-we-are-2:hover {
+    color: rgb(56, 210, 17);
+    text-decoration: underline;
   }
 
   .privacy {
     color: white;
     font-family: JosefinSansBold;
     margin-left: 24px;
+    cursor: pointer;
+  }
+
+  .privacy:hover {
+    color: rgb(56, 210, 17);
+    text-decoration: underline;
   }
 
   .eula {
     color: white;
     font-family: JosefinSansBold;
     margin-left: 16px;
+    cursor: pointer;
+  }
+
+  .eula:hover {
+    color: rgb(56, 210, 17);
+    text-decoration: underline;
   }
 
   @media screen and (max-width: 1000px) {
