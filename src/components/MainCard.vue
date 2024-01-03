@@ -157,17 +157,31 @@
           Andrew Caravaggio
         </div>
 
-        <div class="privacy" @click="openPrivacy()">
+        <div class="privacy" @click="handleUserTappingPrivacy">
           Privacy
         </div>
 
-        <div class="eula" @click="openEULA()">
+        <div class="eula" @click="handleUserTappingEULA">
             EULA
         </div>
       </div>
     </div>
   </body>
 </template>
+
+<script setup>
+  import { useRouter } from "vue-router";
+  const router = useRouter();
+
+  function handleUserTappingEULA() {
+    router.push('/eula')
+  }
+
+  function handleUserTappingPrivacy() {
+    router.push('/privacy')    
+  }
+</script>
+
 <script>
   export default {
       methods: {
@@ -200,12 +214,6 @@
       },
       openAndrewCaravaggioGithub() {
         window.open("https://github.com/andrewcara", "_blank");
-      },
-      openPrivacy() {
-
-      },
-      openEULA() {
-
       }
     },
   };
