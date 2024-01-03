@@ -74,9 +74,16 @@
      <div class="how-it-works-card" id="how-it-works">
       <p class="section__text__p1">The missing link between Spotify and Apple</p>
             <div class="how-it-works-page">
-              <div class="number-background-circle">
-                <div class="number">1</div>
+              <div class="step-container">
+                  <div class="number-background-circle">
+                  <div class="number">1</div>
+                </div>
+                <div class="step-text-container">
+                  <div class="step-title">Download AutoSpoto</div>
+                  <div class="step-subtitle">AutoSpoto is currenlty compatible with MacOS 13.0 and above.</div>
+                </div>
               </div>
+              
 
 
             <div class="how-it-works-steps">
@@ -123,6 +130,44 @@ export default {
 </script>
 
 <style scoped>
+
+  .number-background-circle {
+    background-color: rebeccapurple;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 63, 63);
+  }
+
+  .number {
+    font-family: JosefinSansBold;
+    font-size: 16pt;
+  }
+
+  .step-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .step-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+
+  .step-title {
+    font-family: JosefinSansSemiBold;
+    font-size: 12pt;
+  }
+
+  .step-subtitle {
+    font-family: JosefinSansThin;
+    font-size: 12pt;
+  }
 
   body {
     margin: 0;
