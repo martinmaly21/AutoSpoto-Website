@@ -8,6 +8,7 @@
 
 .EULA-card {
     font-family: JosefinSansBold;
+    color:white;
 }
 
 </style>
