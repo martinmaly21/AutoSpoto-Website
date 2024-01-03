@@ -116,9 +116,8 @@
             </div>
           </div>
         </div>
-        <div class="how-it-works-steps"></div>
         <div class="spotify-apple-photo-holder">
-          <img class="auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
+          <img class="spotify-apple-photo" src="@/assets/apple-spotify-logo.png" alt="Apple/Spotify logo">
         </div>
       </div>
     </div>
@@ -385,6 +384,11 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 25px 100px;
     justify-content: baseline;
+  }
+
+  .spotify-apple-photo-holder {
+    aspect-ratio:  1/1;
+    max-height: 450px;
   }
 
   @media screen and (max-width: 1000px) {
