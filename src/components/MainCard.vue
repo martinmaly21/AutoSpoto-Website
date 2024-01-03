@@ -37,8 +37,8 @@
      <hr />
 
      <div class="story-card" id="story">
-      <p class="section__text__p1">Music Is Meant To Be Shared</p>
-            <div class="about-page">
+      <p class="section__text__p1">Music is meant to be shared</p>
+            <div class="story-page">
               
               <div class="AutoSpotoStory">
               <div class="about-details-container">
@@ -72,7 +72,19 @@
      <hr />
 
      <div class="how-it-works-card" id="how-it-works">
-      TODO: HOW IT WORKS
+      <p class="section__text__p1">The missing link between Spotify and Apple</p>
+            <div class="how-it-works-page">
+              <div class="number-background-circle">
+                <div class="number">1</div>
+              </div>
+
+
+            <div class="how-it-works-steps">
+           </div>
+          <div class = "spotify-apple-photo-holder">
+            
+          </div>
+        </div>
      </div>
 
      <hr />
@@ -157,6 +169,8 @@ export default {
     grid-template-columns: 1fr;
     justify-items: center;
     margin-bottom: 20pt;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .auto-spoto-logo {
@@ -225,8 +239,9 @@ export default {
     color: white;
     padding-left: 50px;
     padding-right:50px;
-    padding-bottom: 150px;
-
+    padding-bottom: 110px;
+    max-width: 1200px;
+    margin: auto;
   }
   .section__text__p1{
     font-family: JosefinSansSemiBold;
@@ -263,7 +278,7 @@ export default {
   align-items:center;
   gap: 10px;
 }
-  .about-page {
+  .story-page {
     flex-direction: row;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -276,65 +291,30 @@ export default {
     height:auto;
     display: inline-block;
   }
-
   
   .section__text__p1 {
     text-align: left;
     font-size: 2rem;
   }
+
   .how-it-works-card {
     color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 110px;
+    max-width: 1200px;
+    margin: auto;
   }
 
-  @media screen and (max-width: 2600px) {
-    #profile {
-      height: 83vh;
-      margin-bottom: 6rem;
-    }
-    .video-container {
-      flex-wrap: wrap;
-    }
-    #download,
-    #about {
-      height: fit-content;
-    }
-    #minimal-view{
-      display: none;
-    }
+  .how-it-works-page {
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px 100px;
+    justify-content: baseline;
   }
-  
-  @media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
-    }
 
-    #minimal-view{
-      display:flex;
-    }
-
-    #download,
-    .download_page {
-      margin-top: 2rem;
-    }
-    #profile,
-    .section-container {
-      display: block;
-    }
-    section,
-    .section-container {
-      height: fit-content;
-    }
-    section {
-      margin: 0 5%;
-    }
-    .section__pic-container {
-      width: 275px;
-      height: 275px;
-      margin: 0 auto 2rem;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     #contact,
     footer {
       height: 40vh;
@@ -343,28 +323,14 @@ export default {
       height: 83vh;
       margin-bottom: 0;
     }
-    .contact-info-upper-container,
-    .btn-container {
-      flex-wrap: wrap;
-    }
     .nav-links li a {
       font-size: 1rem;
     }
-    .logo {
-      font-size: 1.5rem;
+    .story-page {
+      grid-template-columns: 1fr;
     }
-    .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: center;
-    }
-    .section__pic-container {
-      width: auto;
-      height: 46vw;
-      justify-content: center;
-    }
-    .text-container {
-      text-align: justify;
+    .how-it-works-page {
+       grid-template-columns: 1fr;
     }
   }
 </style>
