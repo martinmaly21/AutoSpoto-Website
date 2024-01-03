@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="desktop-nav">
-      <class class="nav-auto-spoto-logo-container">
+      <class class="nav-auto-spoto-logo-container" @click="goHome()">
         <img class="nav-auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
       </class>
       
@@ -71,6 +71,10 @@
 
   function handleUserTappingPrivacy() {
     router.push('/privacy')    
+  }
+
+  function goHome() {
+    router.push('/')
   }
 </script>
 
