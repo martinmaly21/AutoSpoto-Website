@@ -6,7 +6,15 @@
     <title>Document</title>
   </head>
   <body>
-    <nav id="desktop-nav">
+    <div class="desktop-nav">
+      <class class="nav-auto-spoto-logo-container">
+        <img class="nav-auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
+      </class>
+      
+      <div class="nav-spacer">
+
+      </div>
+
       <div>
         <ul class="nav-links">
           <li>
@@ -20,7 +28,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
     <div class="main-card">
       <class class="auto-spoto-logo-container">
         <img class="auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
@@ -241,13 +249,28 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(59, 59, 59, 1) 35%);
   }
 
-  nav {
+  .desktop-nav {
     align-items: flex-start;
     background-color: transparent;
     scroll-behavior: smooth;
     justify-content: flex-end;
     margin-right: 16px;
     display: flex;
+    align-items: center;
+  }
+
+  .nav-auto-spoto-logo-container {
+    height: 60px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+  }
+  .nav-auto-spoto-logo-container:hover { 
+    transform: scale(1.1);
+  }
+
+  .nav-spacer {
+    flex-grow:1 
   }
 
   hr {
