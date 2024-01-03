@@ -170,7 +170,10 @@
 </template>
 <script>
   export default {
-    methods: {
+      methods: {
+        mounted () {
+          window.scrollTo(0, 0);
+      },
       downloadDmg() {
         const dmgFileUrl = 'https://autospoto.xyz/AutoSpoto-Download.dmg';
         const link = document.createElement('a');
@@ -207,6 +210,7 @@
     },
   };
 </script>
+
 <style scoped>
   .number {
     font-family: JosefinSansBold;
