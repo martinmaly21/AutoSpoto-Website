@@ -132,8 +132,17 @@
       </div>
 
       <div class="footer-button-holder">
+
+        <div class="built-by">
+          Built by
+        </div>
+
         <div class="who-we-are-1">
           Martin Maly
+        </div>
+
+        <div class="who-we-are-divider">
+          &
         </div>
 
         <div class="who-we-are-2">
@@ -440,24 +449,40 @@
     flex-direction: row;
   }
 
-  .who-we-are-1 {
+  .built-by {
     color: white;
     font-family: JosefinSansRegular;
+    margin-right: 8px;
+  }
+
+  .who-we-are-1 {
+    color: white;
+    font-family: JosefinSansBold;
+    margin-right: 8px;
+  }
+
+  .who-we-are-divider {
+    color: white;
+    font-family: JosefinSansRegular;
+    margin-right: 8px;
   }
 
   .who-we-are-2 {
     color: white;
-    font-family: JosefinSansRegular;
+    font-family: JosefinSansBold;
+    margin-right: 24px;
   }
 
   .privacy {
     color: white;
-    font-family: JosefinSansRegular;
+    font-family: JosefinSansBold;
+    margin-left: 24px;
   }
 
   .eula {
     color: white;
-    font-family: JosefinSansRegular;
+    font-family: JosefinSansBold;
+    margin-left: 16px;
   }
 
   @media screen and (max-width: 1000px) {
