@@ -447,6 +447,7 @@
   .footer-button-holder {
     display: flex;
     flex-direction: row;
+    justify-content: baseline;
   }
 
   .built-by {
