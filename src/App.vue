@@ -16,7 +16,7 @@
       <div class="footer-button-holder">
 
         <div class="built-by">
-          Built by
+          Built with ❤️ by
         </div>
 
         <div class="who-we-are-1" @click="openMartinMalyGithub()">
