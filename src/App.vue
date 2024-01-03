@@ -2,6 +2,8 @@
   <div class="container">
     <RouterView />
 
+    <hr />
+
     <div class="footer">
       <div class="app-name">
         AutoSpoto 2024
