@@ -6,29 +6,6 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="desktop-nav">
-      <class class="nav-auto-spoto-logo-container">
-        <img class="nav-auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
-      </class>
-      
-      <div class="nav-spacer">
-
-      </div>
-
-      <div>
-        <ul class="nav-links">
-          <li>
-            <a @click="scrollToSection('story')">Story</a>
-          </li>
-          <li>
-            <a @click="scrollToSection('how-it-works')">How it works?</a>
-          </li>
-          <li>
-            <a @click="openEmail()">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
     <div class="main-card">
       <class class="auto-spoto-logo-container">
         <img class="auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
@@ -159,9 +136,6 @@
             behavior: 'smooth',
           });
         }
-      },
-      openEmail() {
-        window.location = "mailto:autospoto.official@gmail.com";
       }
     },
   };
