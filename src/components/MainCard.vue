@@ -423,8 +423,13 @@
   }
 
   .spotify-apple-photo-holder {
-    aspect-ratio:  1/1;
+    display: flex;
+    justify-items: center;
+  }
+
+  .spotify-apple-photo {
     max-height: 450px;
+    aspect-ratio:  1/1;
   }
 
   @media screen and (max-width: 1000px) {
