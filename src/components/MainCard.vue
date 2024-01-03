@@ -420,9 +420,9 @@
   .footer {
     display: flex;
     flex-direction: row;
-    max-width: 1200px;
     height: 40px;
-    margin: auto;
+    margin-left: 16px;
+    margin-right: 16px;
     align-items: center;
   }
   
