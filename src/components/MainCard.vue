@@ -137,7 +137,7 @@
           Built by
         </div>
 
-        <div class="who-we-are-1">
+        <div class="who-we-are-1" @click="openMartinMalyGithub()">
           Martin Maly
         </div>
 
@@ -145,15 +145,15 @@
           &
         </div>
 
-        <div class="who-we-are-2">
+        <div class="who-we-are-2" @click="openAndrewCaravaggioGithub()">
           Andrew Caravaggio
         </div>
 
-        <div class="privacy">
+        <div class="privacy" @click="openPrivacy()">
           Privacy
         </div>
 
-        <div class="eula">
+        <div class="eula" @click="openEULA()">
             EULA
         </div>
       </div>
@@ -183,6 +183,18 @@
       },
       openEmail() {
         window.location = "mailto:autospoto.official@gmail.com";
+      },
+      openMartinMalyGithub() {
+
+      },
+      openAndrewCaravaggioGithub() {
+
+      },
+      openPrivacy() {
+
+      },
+      openEULA() {
+        
       }
     },
   };
