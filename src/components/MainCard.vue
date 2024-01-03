@@ -74,7 +74,8 @@
      <div class="how-it-works-card" id="how-it-works">
       <p class="section__text__p1">The missing link between Spotify and Apple</p>
             <div class="how-it-works-page">
-              <div class="step-container">
+              <div class="steps-container">
+                <div class="step-container">
                   <div class="number-background-circle">
                   <div class="number">1</div>
                 </div>
@@ -83,13 +84,52 @@
                   <div class="step-subtitle">AutoSpoto is currenlty compatible with MacOS 13.0 and above.</div>
                 </div>
               </div>
-              
 
+              <div class="step-container">
+                  <div class="number-background-circle">
+                  <div class="number">2</div>
+                </div>
+                <div class="step-text-container">
+                  <div class="step-title">Connect your iMessages and Spotify to AutoSpoto on your Mac</div>
+                  <div class="step-subtitle">AutoSpoto is fully local, and your messages will never leave your computer.</div>
+                </div>
+              </div>
+
+              <div class="step-container">
+                  <div class="number-background-circle">
+                  <div class="number">3</div>
+                </div>
+                <div class="step-text-container">
+                  <div class="step-title">Browse your iMessage chats in AutoSpoto</div>
+                  <div class="step-subtitle">The iMesssage chats will be reduced to only contain tracks sent in each chat.</div>
+                </div>
+              </div>
+
+              <div class="step-container">
+                  <div class="number-background-circle">
+                  <div class="number">4</div>
+                </div>
+                <div class="step-text-container">
+                  <div class="step-title">Connect an iMessage chat to a playlist</div>
+                  <div class="step-subtitle">You will have the option to name the playlist.</div>
+                </div>
+              </div>
+
+              <div class="step-container">
+                  <div class="number-background-circle">
+                  <div class="number">5</div>
+                </div>
+                <div class="step-text-container">
+                  <div class="step-title">Listen to your playlist!</div>
+                  <div class="step-subtitle">Your playlist will contain every Spotify track that has ever been sent in that chat, and will automatically update whenever future tracks are shared within the chat.</div>
+                </div>
+              </div>
+              </div>
 
             <div class="how-it-works-steps">
            </div>
           <div class = "spotify-apple-photo-holder">
-            
+            <img class = "auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
           </div>
         </div>
      </div>
@@ -131,26 +171,23 @@ export default {
 
 <style scoped>
 
-  .number-background-circle {
-    background-color: rebeccapurple;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(64, 63, 63);
-  }
 
   .number {
     font-family: JosefinSansBold;
     font-size: 16pt;
+    background-color: rgb(64, 63, 63);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height:50px;
   }
 
   .step-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 30px;
   }
 
   .step-text-container {
@@ -233,6 +270,7 @@ export default {
     font-family: JosefinSansRegular;
     font-size: 18pt;
     margin-bottom: 20pt;
+    text-align: center;
   }
   
   .video-container {
