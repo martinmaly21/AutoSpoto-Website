@@ -122,7 +122,33 @@
       </div>
     </div>
     <hr />
-    <div class="footer"></div>
+    <div class="footer">
+      <div class="app-name">
+        AutoSpoto 2024
+      </div>
+
+      <div class="footer-spacer">
+
+      </div>
+
+      <div class="footer-button-holder">
+        <div class="who-we-are-1">
+          Martin Maly
+        </div>
+
+        <div class="who-we-are-2">
+          Andrew Caravaggio
+        </div>
+
+        <div class="privacy">
+          Privacy
+        </div>
+
+        <div class="eula">
+            EULA
+        </div>
+      </div>
+    </div>
   </body>
 </template>
 <script>
@@ -389,6 +415,49 @@
   .spotify-apple-photo-holder {
     aspect-ratio:  1/1;
     max-height: 450px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    height: 40px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .app-name {
+    color: white;
+    font-family: JosefinSansBold;
+  }
+
+  .footer-spacer {
+    flex-grow:1 
+  }
+
+  .footer-button-holder {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .who-we-are-1 {
+    color: white;
+    font-family: JosefinSansRegular;
+  }
+
+  .who-we-are-2 {
+    color: white;
+    font-family: JosefinSansRegular;
+  }
+
+  .privacy {
+    color: white;
+    font-family: JosefinSansRegular;
+  }
+
+  .eula {
+    color: white;
+    font-family: JosefinSansRegular;
   }
 
   @media screen and (max-width: 1000px) {
