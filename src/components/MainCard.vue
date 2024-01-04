@@ -46,7 +46,7 @@
                  To keep playlists up-to-date, a LaunchAgent refreshes the playlist when a new song is shared within a tracked playlist. </p> -->
         </div>
         <div class="IFrame-Spotify">
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7KfBHdVQiSRJCQp5ejXhgj?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3Qf4t1r3wXybi3KAp1neks?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       </div>
     </div>
