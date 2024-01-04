@@ -120,11 +120,11 @@
           window.scrollTo(0, 0);
       },
       downloadDmg() {
-        const dmgFileUrl = 'https://autospoto.xyz/AutoSpoto-Download.dmg';
+        const dmgFileUrl = 'https://autospoto.xyz/AutoSpoto.dmg';
         const link = document.createElement('a');
         link.href = dmgFileUrl;
         link.target = '_blank'; // Open in a new tab/window
-        link.download = 'AutoSpoto-Download.dmg'; // Set the default download file name
+        link.download = 'AutoSpoto.dmg'; // Set the default download file name
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

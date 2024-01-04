@@ -3,12 +3,12 @@
     <channel>
         <title>AutoSpoto</title>
         <item>
-            <title>0.9</title>
-            <pubDate>Fri, 30 Jun 2023 20:00:28 +0900</pubDate>
+            <title>1.0</title>
+            <pubDate>Thu, 04 Jan 2024 11:58:40 +0900</pubDate>
             <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://autospoto.xyz/AutoSpoto-Download.dmg" length="7865168" type="application/octet-stream" sparkle:edSignature="xGCL5CfwKpOvQ1e3yTBNep036eFkyzBvGLYMsdDdeRSItaqZ9ywlmha68iZNknXYROn2YVLOjBOkbmF/DpH3Cw=="/>
+            <enclosure url="https://autospoto.xyz/AutoSpoto.dmg" length="20607005" type="application/octet-stream" sparkle:edSignature="3WS4P6OxlQRMpxZznbjhYS9Y09rtMzln/eb9vgcA9Me1JWVoOFRbKGdTZ8JadeOB5TTXizuuuWp4xQRwJLToAA=="/>
         </item>
     </channel>
 </rss>
