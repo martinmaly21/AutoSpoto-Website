@@ -13,7 +13,7 @@
       <class class="auto-spoto-title">AutoSpoto</class>
       <class class="auto-spoto-subtitle">Never lose a recommended song again.</class>
       <div class="video-container">
-        <video class="video" autoplay>
+        <video class="video" autoplay loop muted>
           <source src="FinalDisplayAutoSpoto.mov" type="video/mp4"> Your browser does not support the video tag.
         </video>
       </div>
