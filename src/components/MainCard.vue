@@ -224,11 +224,14 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    clip-path: inset(1px 1px);
   }
 
   .video {
     width: 100%;
     height: auto;
+    border-color: rgba(59, 59, 59, 1);
+    clip-path: inset(1px 1px);
   }
 
   .download-btn {
