@@ -366,10 +366,6 @@
   }
 
   @media screen and (max-width: 1000px) {
-    .nav-links li a {
-      font-size: 1rem;
-    }
-
     .story-page {
       grid-template-columns: 1fr;
     }
@@ -377,5 +373,6 @@
     .how-it-works-page {
       grid-template-columns: 1fr;
     }
+    
   }
 </style>

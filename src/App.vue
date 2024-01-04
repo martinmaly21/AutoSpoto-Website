@@ -238,5 +238,22 @@ html {
     cursor: pointer;
   }
 
+  @media screen and (max-width: 700px) {
+  .built-by {
+    display: none;
+  }
 
+  .who-we-are-1 {
+    display: none;
+  }
+
+  .who-we-are-divider {
+    display: none;
+  }
+
+  .who-we-are-2 {
+    display: none;
+  }
+    
+  }
 </style>
