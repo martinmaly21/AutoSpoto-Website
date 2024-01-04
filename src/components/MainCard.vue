@@ -375,4 +375,12 @@
     }
     
   }
+
+  @media screen and (max-width: 700px) {
+    .spotify-apple-photo {
+    display: none;
+  }
+    
+  }
+  
 </style>

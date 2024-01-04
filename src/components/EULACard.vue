@@ -135,6 +135,8 @@ The terms of this EULA will govern any Updates.
 .EULA-container {
     margin: auto;
     max-width: 1200px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .section {
