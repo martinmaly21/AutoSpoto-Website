@@ -232,6 +232,8 @@
     height: auto;
     border-color: rgba(59, 59, 59, 1);
     clip-path: inset(1px 1px);
+    background-image: url(@/assets/loading_screenshot.png);
+    background-size: contain;
   }
 
   .download-btn {
