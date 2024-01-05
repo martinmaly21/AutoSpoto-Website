@@ -114,12 +114,20 @@
 </script>
 
 <script>
+import { getAnalytics, logEvent } from "firebase/analytics";
+
   export default {
       methods: {
         mounted () {
           window.scrollTo(0, 0);
       },
       downloadDmg() {
+        
+        const analytics = getAnalytics();
+        logEvent(analytics, 'autospoto_download', {
+          content_type: 'clicked',
+        });
+
         const dmgFileUrl = 'https://autospoto.xyz/AutoSpoto.dmg';
         const link = document.createElement('a');
         link.href = dmgFileUrl;
