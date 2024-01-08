@@ -3,12 +3,12 @@
     <channel>
         <title>AutoSpoto</title>
         <item>
-            <title>1.0</title>
-            <pubDate>Thu, 04 Jan 2024 12:34:56 +0900</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <title>1.01</title>
+            <pubDate>Mon, 08 Jan 2024 11:00:03 +0900</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.01</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://autospoto.xyz/AutoSpoto.dmg" length="22075769" type="application/octet-stream" sparkle:edSignature="DXl9JzSnGQILAPwrLtWRjHlGnyrFaq5jYIhczUGS3eEYRNk+sbC0q2l+4njmQT41cNsiN7zWh9aU4ylxbz22DA=="/>
+            <enclosure url="https://autospoto.xyz/AutoSpoto.dmg" length="42494328" type="application/octet-stream" sparkle:edSignature="OHOOonmFkw5cUkYgjET2NG0N4IoXOiBEyycOkI6VHGGcDHkgNaz0DHeqkEuEcAgQqutXzsNDvtpX2sNy8plPBw=="/>
         </item>
     </channel>
 </rss>
