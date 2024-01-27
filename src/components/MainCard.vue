@@ -34,9 +34,6 @@
               <div>Out of this problem, AutoSpoto emerged as our collective dream project, a manifestation of our desire to make music sharing seamless, spontaneous, and deeply personal.</div>
               <br>
               <div class="about-ending">
-                <div class="lads-image">
-                  <img src="@/assets/lads.png">
-                </div>
                 <div class="autospoto-signature">-The AutoSpoto Team</div>
               </div>
             </div>
