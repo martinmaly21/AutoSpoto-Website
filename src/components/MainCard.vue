@@ -76,7 +76,7 @@
             </div>
             <div class="step-text-container">
               <div class="step-title">Browse your iMessage chats in AutoSpoto</div>
-              <div class="step-subtitle">The iMesssage chats will be reduced to only contain tracks sent in each chat.</div>
+              <div class="step-subtitle">The iMessage chats will be reduced to only contain tracks sent in each chat.</div>
             </div>
           </div>
           <div class="step-container">
