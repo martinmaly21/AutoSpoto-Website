@@ -17,7 +17,7 @@
           <source src="FinalDisplayAutoSpoto.mov" type="video/mp4"> Your browser does not support the video tag.
         </video>
       </div>
-      <button class="download-btn" @click="downloadDmg" target="_blank"> Download now </button>
+      <img class="download-app-store-photo" src="@/assets/download_on_app_store.png" alt="Download on app store" @click="downloadDmg" target="_blank">
       <class class="download-extra-info">Requires macOS 13.0 or later</class>
     </div>
     <hr />
@@ -125,7 +125,7 @@ import { getAnalytics, logEvent } from "firebase/analytics";
           content_type: 'clicked',
         });
 
-        const dmgFileUrl = 'https://autospoto.xyz/AutoSpoto.dmg';
+        const dmgFileUrl = 'https://apps.apple.com/us/app/autospoto/id6477784219';
         const link = document.createElement('a');
         link.href = dmgFileUrl;
         link.target = '_blank'; // Open in a new tab/window
@@ -179,6 +179,14 @@ import { getAnalytics, logEvent } from "firebase/analytics";
   .step-subtitle {
     font-family: JosefinSansThin;
     font-size: 12pt;
+  }
+
+  .download-app-store-photo {
+    width: 200px;
+  }
+
+  .download-app-store-photo:hover {
+    cursor: pointer;
   }
 
   body {
