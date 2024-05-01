@@ -1,6 +1,6 @@
 # AutoSpoto
 
-The landing page for [AutoSpoto](https://github.com/martinmaly21/AutoSpoto), a macOS app to connect your iMessage chats to Spotify playlists.
+The landing page for [AutoSpoto](https://github.com/martinmaly21/AutoSpoto), a macOS app to connect your iMessage chats to Spotify playlists
 
 ## Installation
 1. 
