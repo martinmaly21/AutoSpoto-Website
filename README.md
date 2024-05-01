@@ -1,24 +1,16 @@
-# autospoto-website
+# AutoSpoto
 
-## Project setup
+The landing page for [AutoSpoto](https://github.com/martinmaly21/AutoSpoto), a macOS app to connect your iMessage chats to Spotify playlists.
+
+## Installation
+1. 
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+2.
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+AutoSpoto-Website is available under the MIT license. See the LICENSE file for more info.
