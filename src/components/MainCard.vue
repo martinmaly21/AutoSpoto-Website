@@ -7,18 +7,18 @@
   </head>
   <body>
     <div class="main-card">
-      <class class="auto-spoto-logo-container">
+      <div class="auto-spoto-logo-container">
         <img class="auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
-      </class>
-      <class class="auto-spoto-title">AutoSpoto</class>
-      <class class="auto-spoto-subtitle">Never lose a recommended song again.</class>
+      </div>
+      <div class="auto-spoto-title">AutoSpoto</div>
+      <div class="auto-spoto-subtitle">Never lose a recommended song again.</div>
       <div class="video-container">
         <video class="video" autoplay loop muted>
           <source src="FinalDisplayAutoSpoto.mov" type="video/mp4"> Your browser does not support the video tag.
         </video>
       </div>
       <img class="download-app-store-photo" src="@/assets/download_on_app_store.png" alt="Download on app store" @click="downloadDmg" target="_blank">
-      <class class="download-extra-info">Requires macOS 13.0 or later</class>
+      <div class="download-extra-info">Requires macOS 13.0 or later</div>
     </div>
     <hr />
     <div class="story-card" id="story">
