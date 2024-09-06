@@ -119,10 +119,6 @@ html {
     flex-grow:1 
   }
 
-  hr {
-    color: gray;
-  }
-
   .nav-links {
     display: flex;
     transition: all 300ms ease;

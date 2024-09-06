@@ -23,3 +23,9 @@
 <script setup>
     import { RouterLink } from 'vue-router';
 </script>
+
+<style scoped>
+    .container {
+        background-color: black;
+    }
+</style>
