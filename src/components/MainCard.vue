@@ -20,7 +20,6 @@
       <img class="download-app-store-photo" src="@/assets/download_on_app_store.png" alt="Download on app store" @click="downloadDmg" target="_blank">
       <div class="download-extra-info">Requires macOS 13.0 or later</div>
     </div>
-    <hr />
     <div class="story-card" id="story">
       <p class="section__text__p1">Music is meant to be shared</p>
       <div class="story-page">
@@ -47,7 +46,6 @@
         </div>
       </div>
     </div>
-    <hr />
     <div class="how-it-works-card" id="how-it-works">
       <p class="section__text__p1">The missing link between Spotify and Apple</p>
       <div class="how-it-works-page">
