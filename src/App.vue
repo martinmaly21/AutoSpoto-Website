@@ -28,17 +28,13 @@
         AutoSpoto 2024
       </div>
 
-      <div class="footer-spacer">
-
-      </div>
-
       <div class="footer-button-holder">
 
         <div class="built-by">
           Built with ❤️ by
         </div>
 
-        <div class="who-we-are-1" @click="openMartinMalyGithub()">
+        <div class="who-we-are" @click="openMartinMalyGithub()">
           Martin Maly
         </div>
 
@@ -46,7 +42,7 @@
           &
         </div>
 
-        <div class="who-we-are-2" @click="openAndrewCaravaggioGithub()">
+        <div class="who-we-are" @click="openAndrewCaravaggioGithub()">
           Andrew Caravaggio
         </div>
 
@@ -101,6 +97,7 @@ html {
 .footer {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 50px;
     margin-left: 16px;
     margin-right: 16px;
@@ -110,10 +107,6 @@ html {
   .app-name {
     color: white;
     font-family: JosefinSansBold;
-  }
-
-  .footer-spacer {
-    flex-grow:1 
   }
 
   .footer-button-holder {
@@ -128,14 +121,14 @@ html {
     margin-right: 8px;
   }
 
-  .who-we-are-1 {
+  .who-we-are {
     color: white;
     font-family: JosefinSansBold;
     margin-right: 8px;
     cursor: pointer;
   }
 
-  .who-we-are-1:hover {
+  .who-we-are:hover {
     color: rgb(56, 210, 17);
     text-decoration: underline;
   }
@@ -146,38 +139,20 @@ html {
     margin-right: 8px;
   }
 
-  .who-we-are-2 {
-    color: white;
-    font-family: JosefinSansBold;
-    margin-right: 24px;
-    cursor: pointer;
-  }
-
-  .who-we-are-2:hover {
-    color: rgb(56, 210, 17);
-    text-decoration: underline;
-  }
-
-  .privacy {
-    color: white;
-    font-family: JosefinSansBold;
-    margin-left: 24px;
-    cursor: pointer;
-  }
-
   .privacy:hover {
     color: rgb(56, 210, 17);
     text-decoration: underline;
   }
 
-  .eula {
+  .footerLink {
     color: white;
     font-family: JosefinSansBold;
     margin-left: 16px;
     cursor: pointer;
+    text-decoration: none;
   }
 
-  .eula:hover {
+  .footerLink:hover {
     color: rgb(56, 210, 17);
     text-decoration: underline;
   }
