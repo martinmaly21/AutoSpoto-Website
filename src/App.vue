@@ -98,7 +98,7 @@ html {
     height: 100%;
   }
 
-.desktop-nav {
+  .desktop-nav {
     align-items: flex-start;
     background-color: transparent;
     scroll-behavior: smooth;
