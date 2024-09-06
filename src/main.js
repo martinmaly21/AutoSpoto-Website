@@ -28,8 +28,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 getAnalytics(app);
 
-createApp(App).mount('#app')
-
 const routes = [
     { 
         path: '/', name: "Home", component: MainCard,
