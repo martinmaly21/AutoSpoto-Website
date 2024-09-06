@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <div class="desktop-nav">
-      <class class="nav-auto-spoto-logo-container" @click="goHome()">
+      <RouterLink to="/" class="nav-auto-spoto-logo-container">
         <img class="nav-auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
-      </class>
+      </RouterLink>
       
       <div class="nav-spacer">
 
@@ -56,15 +56,6 @@
   </div>
   
 </template>
-
-<script setup>
-  import { useRouter } from "vue-router";
-  const router = useRouter();
-
-  function goHome() {
-    router.push('/')
-  }
-</script>
 
 <script>
   export default {
