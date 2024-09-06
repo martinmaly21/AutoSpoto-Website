@@ -4,46 +4,16 @@
     <RouterView />
 
     <a class="product-hunt" href="https://www.producthunt.com/posts/autospoto?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-autospoto" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=443478&theme=light" alt="AutoSpoto - Never&#0032;lose&#0032;a&#0032;recommended&#0032;song&#0032;again&#0033; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
     <hr />
 
-    <div class="footer">
-      <div class="app-name">
-        AutoSpoto 2024
-      </div>
-
-      <div class="footer-button-holder">
-
-        <div class="built-by">
-          Built with ❤️ by
-        </div>
-
-        <div class="who-we-are" @click="openMartinMalyGithub()">
-          Martin Maly
-        </div>
-
-        <div class="who-we-are-divider">
-          &
-        </div>
-
-        <div class="who-we-are" @click="openAndrewCaravaggioGithub()">
-          Andrew Caravaggio
-        </div>
-
-        <RouterLink class="footerLink" to="/privacy">
-          Privacy
-        </RouterLink>
-
-        <RouterLink to="/eula" class="footerLink">EULA</RouterLink>
-      </div>
-    </div>
+    <FooterBar/>
   
 </template>
 
 <script setup>
   import NavBar from './components/NavBar.vue'
-  import { RouterView, RouterLink } from 'vue-router';
-
+  import FooterBar from './components/FooterBar.vue'
+  import { RouterView } from 'vue-router';
 </script>
 
 <script>
