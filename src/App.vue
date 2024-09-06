@@ -102,8 +102,6 @@ html {
     display: flex;
     align-items: center;
     background-color: rgba(35, 35, 35, 1);
-    border: 2px #0c8a23;
-    border-bottom-style: solid;
     height: 7vh;
   }
 
