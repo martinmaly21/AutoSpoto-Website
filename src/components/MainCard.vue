@@ -7,18 +7,20 @@
   </head>
   <body>
     <div class="main-card">
-      <div class="auto-spoto-logo-container">
-        <img class="auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
+      <div class="logoBox">
+        <div class="auto-spoto-logo-container">
+          <img class="auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
+        </div>
+        <div class="auto-spoto-title">AutoSpoto</div>
+        <div class="auto-spoto-subtitle">Never lose a recommended song again.</div>
+        <img class="download-app-store-photo" src="@/assets/download_on_app_store.png" alt="Download on app store" @click="downloadDmg" target="_blank">
+        <div class="download-extra-info">Requires macOS 13.0 or later</div>
       </div>
-      <div class="auto-spoto-title">AutoSpoto</div>
-      <div class="auto-spoto-subtitle">Never lose a recommended song again.</div>
       <div class="video-container">
         <video class="video" autoplay loop muted>
           <source src="FinalDisplayAutoSpoto.mov" type="video/mp4"> Your browser does not support the video tag.
         </video>
       </div>
-      <img class="download-app-store-photo" src="@/assets/download_on_app_store.png" alt="Download on app store" @click="downloadDmg" target="_blank">
-      <div class="download-extra-info">Requires macOS 13.0 or later</div>
     </div>
     <div class="story-card" id="story">
       <p class="section__text__p1">Music is meant to be shared</p>
@@ -180,6 +182,8 @@ import { getAnalytics, logEvent } from "firebase/analytics";
   }
 
   .download-app-store-photo {
+    margin: 2em;
+    margin-bottom: 0.5em;
     width: 200px;
   }
 
@@ -199,12 +203,17 @@ import { getAnalytics, logEvent } from "firebase/analytics";
   }
 
   .main-card {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    margin-bottom: 20pt;
-    margin-left: 20px;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4em 0em;
+  }
+
+  .logoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .auto-spoto-logo-container {
@@ -232,9 +241,6 @@ import { getAnalytics, logEvent } from "firebase/analytics";
   .video-container {
     max-width: 50%;
     /* Adjust the percentage as needed */
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     clip-path: inset(1px 1px);
   }
 
