@@ -30,3 +30,19 @@
       </div>
     </div>
 </template>
+
+<script>
+  export default {
+      methods: {
+      openMartinMalyGithub() {
+        window.open("https://github.com/martinmaly21", "_blank");
+      },
+      openAndrewCaravaggioGithub() {
+        window.open("https://github.com/andrewcara", "_blank");
+      },
+      openEmail() {
+        window.location = "mailto:autospoto.official@gmail.com";
+      }
+    },
+  };
+</script>
