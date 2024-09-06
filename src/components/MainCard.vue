@@ -193,7 +193,7 @@ import { getAnalytics, logEvent } from "firebase/analytics";
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(59, 59, 59, 1) 35%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, #333333 35%);
   }
 
   hr {
