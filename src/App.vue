@@ -1,22 +1,6 @@
 <template>
-  <div class="container">
-    <div class="desktop-nav">
-      <RouterLink to="/" class="nav-auto-spoto-logo-container">
-        <img class="nav-auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
-      </RouterLink>
-      
-      <div class="nav-spacer">
+    <NavBar />
 
-      </div>
-
-      <div>
-        <ul class="nav-links">
-          <li>
-            <a @click="openEmail()">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
     <RouterView />
 
     <a class="product-hunt" href="https://www.producthunt.com/posts/autospoto?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-autospoto" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=443478&theme=light" alt="AutoSpoto - Never&#0032;lose&#0032;a&#0032;recommended&#0032;song&#0032;again&#0033; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
@@ -53,9 +37,14 @@
         <RouterLink to="/eula" class="footerLink">EULA</RouterLink>
       </div>
     </div>
-  </div>
   
 </template>
+
+<script setup>
+  import NavBar from './components/NavBar.vue'
+  import { RouterView, RouterLink } from 'vue-router';
+
+</script>
 
 <script>
   export default {
