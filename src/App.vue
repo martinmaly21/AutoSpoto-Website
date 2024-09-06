@@ -2,7 +2,6 @@
     <NavBar />
     <RouterView />
     <a class="product-hunt" href="https://www.producthunt.com/posts/autospoto?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-autospoto" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=443478&theme=light" alt="AutoSpoto - Never&#0032;lose&#0032;a&#0032;recommended&#0032;song&#0032;again&#0033; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-    <hr />
     <FooterBar/>
   
 </template>
@@ -23,7 +22,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
+    margin-bottom: 4em;
   }
 
 .footer {
@@ -146,21 +145,20 @@ html {
   }
 
   @media screen and (max-width: 700px) {
-  .built-by {
-    display: none;
-  }
+    .built-by {
+      display: none;
+    }
 
-  .who-we-are-1 {
-    display: none;
-  }
+    .who-we-are-1 {
+      display: none;
+    }
 
-  .who-we-are-divider {
-    display: none;
-  }
+    .who-we-are-divider {
+      display: none;
+    }
 
-  .who-we-are-2 {
-    display: none;
-  }
-    
+    .who-we-are-2 {
+      display: none;
+    }
   }
 </style>
