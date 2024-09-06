@@ -105,6 +105,7 @@
   .nav-auto-spoto-logo {
     width: 100%;
     height: 100%;
+    margin-left: 0.5em;
   }
 
   .desktop-nav {
@@ -114,14 +115,14 @@
     justify-content: flex-end;
     display: flex;
     align-items: center;
-    background-color: rgba(35, 35, 35, 1);
+    background-color: black;
+    border: 0.2em #0c8a23;
+    border-bottom-style: solid;
     height: 7vh;
   }
 
   .nav-auto-spoto-logo-container {
-    height: 60px;
-    width: 60px;
-    margin-left: 10px;
+    height: 80%;
     cursor: pointer;
     transition: all .2s ease-in-out;
   }
