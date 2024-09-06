@@ -282,11 +282,14 @@ import { getAnalytics, logEvent } from "firebase/analytics";
 
   .story-card {
     color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 110px;
-    max-width: 1200px;
-    margin: auto;
+    padding: 4em;
+    margin: 4em 16em;
+    background-color: black;
+    box-shadow: 0px 6px 15px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .story-card p {
+    margin-top: 0;
   }
 
   .section__text__p1 {
@@ -342,6 +345,8 @@ import { getAnalytics, logEvent } from "firebase/analytics";
     width: fit-content;
     height: auto;
     display: inline-block;
+    font-family: JosefinSansThin;
+    font-weight: 600;
   }
 
   .section__text__p1 {
