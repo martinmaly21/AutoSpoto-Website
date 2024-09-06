@@ -104,12 +104,12 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
+    align-items: center;
   }
 
   .built-by {
     color: white;
     font-family: JosefinSansRegular;
-    margin-right: 8px;
   }
 
   .who-we-are {
@@ -117,6 +117,7 @@ html {
     font-family: JosefinSansBold;
     margin-right: 8px;
     cursor: pointer;
+    padding: 0em 0.5em;
   }
 
   .who-we-are:hover {
