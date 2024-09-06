@@ -101,7 +101,10 @@ html {
     justify-content: flex-end;
     display: flex;
     align-items: center;
-    background-color: rgba(45, 45, 45, 1);
+    background-color: rgba(35, 35, 35, 1);
+    border: 2px #0c8a23;
+    border-bottom-style: solid;
+    height: 7vh;
   }
 
   .nav-auto-spoto-logo-container {
