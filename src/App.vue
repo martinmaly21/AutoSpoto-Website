@@ -50,13 +50,11 @@
           Andrew Caravaggio
         </div>
 
-        <div class="privacy" @click="handleUserTappingPrivacy">
+        <RouterLink class="footerLink" to="/privacy">
           Privacy
-        </div>
+        </RouterLink>
 
-        <div class="eula" @click="handleUserTappingEULA">
-            EULA
-        </div>
+        <RouterLink to="/eula" class="footerLink">EULA</RouterLink>
       </div>
     </div>
   </div>
@@ -66,14 +64,6 @@
 <script setup>
   import { useRouter } from "vue-router";
   const router = useRouter();
-
-  function handleUserTappingEULA() {
-    router.push('/eula')
-  }
-
-  function handleUserTappingPrivacy() {
-    router.push('/privacy')    
-  }
 
   function goHome() {
     router.push('/')
