@@ -292,6 +292,7 @@ import { getAnalytics, logEvent } from "firebase/analytics";
     margin: 4em 16em;
     background-color: black;
     box-shadow: 0px 6px 15px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 22px;
   }
 
   .story-card p {
