@@ -344,6 +344,10 @@ hr {
   font-family: JosefinSansSemiBold;
 }
 
+.section__text__p1 {
+  padding-top: 30px;
+}
+
 .about-details-container {
   background-color: rgb(64, 63, 63);
   font-family: JosefinSansRegular;
