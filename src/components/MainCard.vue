@@ -310,17 +310,36 @@ hr {
 
 .story-card {
   color: white;
-  padding: 4em;
-  margin: 4em 16em;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 110px;
+  max-width: 1200px;
+  margin: auto;
   background-color: black;
   box-shadow: 0px 6px 15px 5px rgba(0, 0, 0, 0.3);
   border-radius: 22px;
 }
 
-.story-card p {
-  margin-top: 0;
+.story-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px 100px;
+  justify-content: baseline;
 }
 
+@media screen and (max-width: 1000px) {
+  .story-page {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .story-card {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 55px;
+  }
+}
 .section__text__p1 {
   font-family: JosefinSansSemiBold;
 }
