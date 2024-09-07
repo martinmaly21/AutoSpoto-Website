@@ -7,20 +7,21 @@
   </head>
   <body>
     <div class="main-card">
-      <class class="auto-spoto-logo-container">
-        <img class="auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
-      </class>
-      <class class="auto-spoto-title">AutoSpoto</class>
-      <class class="auto-spoto-subtitle">Never lose a recommended song again.</class>
+      <div class="logoBox">
+        <div class="auto-spoto-logo-container">
+          <img class="auto-spoto-logo" src="@/assets/autospoto-app-icon1.png" alt="AutoSpoto logo">
+        </div>
+        <div class="auto-spoto-title">AutoSpoto</div>
+        <div class="auto-spoto-subtitle">Never lose a recommended song again.</div>
+        <img class="download-app-store-photo" src="@/assets/download_on_app_store.png" alt="Download on app store" @click="downloadDmg" target="_blank">
+        <div class="download-extra-info">Requires macOS 13.0 or later</div>
+      </div>
       <div class="video-container">
         <video class="video" autoplay loop muted>
           <source src="FinalDisplayAutoSpoto.mov" type="video/mp4"> Your browser does not support the video tag.
         </video>
       </div>
-      <img class="download-app-store-photo" src="@/assets/download_on_app_store.png" alt="Download on app store" @click="downloadDmg" target="_blank">
-      <class class="download-extra-info">Requires macOS 13.0 or later</class>
     </div>
-    <hr />
     <div class="story-card" id="story">
       <p class="section__text__p1">Music is meant to be shared</p>
       <div class="story-page">
@@ -47,7 +48,6 @@
         </div>
       </div>
     </div>
-    <hr />
     <div class="how-it-works-card" id="how-it-works">
       <p class="section__text__p1">The missing link between Spotify and Apple</p>
       <div class="how-it-works-page">
@@ -182,6 +182,8 @@ import { getAnalytics, logEvent } from "firebase/analytics";
   }
 
   .download-app-store-photo {
+    margin: 2em;
+    margin-bottom: 0.5em;
     width: 200px;
   }
 
@@ -193,7 +195,7 @@ import { getAnalytics, logEvent } from "firebase/analytics";
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(59, 59, 59, 1) 35%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, #333333 35%);
   }
 
   hr {
@@ -201,12 +203,17 @@ import { getAnalytics, logEvent } from "firebase/analytics";
   }
 
   .main-card {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    margin-bottom: 20pt;
-    margin-left: 20px;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4em 0em;
+  }
+
+  .logoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .auto-spoto-logo-container {
@@ -234,9 +241,6 @@ import { getAnalytics, logEvent } from "firebase/analytics";
   .video-container {
     max-width: 50%;
     /* Adjust the percentage as needed */
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     clip-path: inset(1px 1px);
   }
 
@@ -284,11 +288,15 @@ import { getAnalytics, logEvent } from "firebase/analytics";
 
   .story-card {
     color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 110px;
-    max-width: 1200px;
-    margin: auto;
+    padding: 4em;
+    margin: 4em 16em;
+    background-color: black;
+    box-shadow: 0px 6px 15px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 22px;
+  }
+
+  .story-card p {
+    margin-top: 0;
   }
 
   .section__text__p1 {
@@ -344,6 +352,8 @@ import { getAnalytics, logEvent } from "firebase/analytics";
     width: fit-content;
     height: auto;
     display: inline-block;
+    font-family: JosefinSansThin;
+    font-weight: 600;
   }
 
   .section__text__p1 {
