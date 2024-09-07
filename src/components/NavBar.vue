@@ -22,6 +22,10 @@
 
 <script setup>
     import { RouterLink } from 'vue-router';
+
+    function openEmail() {
+        window.location = "mailto:autospoto.official@gmail.com"
+    }
 </script>
 
 <style scoped>
