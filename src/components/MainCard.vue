@@ -314,10 +314,20 @@ hr {
   padding-right: 50px;
   padding-bottom: 110px;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;  /* Changed from just 'auto' to '0 auto' */
   background-color: black;
   box-shadow: 0px 6px 15px 5px rgba(0, 0, 0, 0.3);
   border-radius: 22px;
+  width: 90%;  /* Added this line */
+}
+
+@media screen and (max-width: 1000px) {
+  .story-card {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 55px;
+    width: 85%;  /* Added this line */
+  }
 }
 
 .story-page {
@@ -333,13 +343,6 @@ hr {
   }
 }
 
-@media screen and (max-width: 700px) {
-  .story-card {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 55px;
-  }
-}
 .section__text__p1 {
   font-family: JosefinSansSemiBold;
 }
