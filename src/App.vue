@@ -103,8 +103,8 @@
   }
 
   .nav-auto-spoto-logo {
-    width: 100%;
-    height: 100%;
+    width: 5vh;
+    height: 5vh;
     margin-left: 0.5em;
   }
 
@@ -122,6 +122,8 @@
   }
 
   .nav-auto-spoto-logo-container {
+    display: flex;
+    align-items: center;
     height: 80%;
     cursor: pointer;
     transition: all .2s ease-in-out;
