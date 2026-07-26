@@ -17,7 +17,7 @@
         <div class="auto-spoto-subtitle">Never lose a recommended song again.</div>
         <div class="video-container-mobile">
           <video class="video" autoplay loop muted>
-            <source src="FinalDisplayAutoSpoto.mov" type="video/mp4"> Your browser does not support the video tag.
+            <source src="/FinalDisplayAutoSpoto.mov" type="video/mp4"> Your browser does not support the video tag.
           </video>
         </div>
         <img class="download-app-store-photo" src="@/assets/download_on_app_store.png" alt="Download on app store"
@@ -26,7 +26,7 @@
       </div>
       <div class="video-container-desktop">
         <video class="video" autoplay loop muted>
-          <source src="FinalDisplayAutoSpoto.mov" type="video/mp4"> Your browser does not support the video tag.
+          <source src="/FinalDisplayAutoSpoto.mov" type="video/mp4"> Your browser does not support the video tag.
         </video>
       </div>
     </div>
